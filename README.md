@@ -18,7 +18,7 @@ Fine-tuned BERT neural network (end-to-end deep learning)
 
 This project implements and evaluates three distinct sentiment analysis approaches. These are all present in the code (see MiniProject_Code.ipynb) and are used for comparative analysis.
 
-### Method 1: TF-IDF + Classical Classifier (Baseline)
+### Method 1: TF-IDF + Logistic Regression (Baseline)
 
 Feature Extraction: TF-IDF vectorization (max 5000 features)
 
