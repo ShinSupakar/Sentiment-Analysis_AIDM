@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project addresses binary sentiment classification of product reviews (positive vs. negative) as part of IE4483 – Artificial Intelligence & Data Mining (Mini Project 1).
+This project addresses binary sentiment classification of product reviews (positive vs. negative) as part of IE4483 – Artificial Intelligence & Data Mining (Mini Project).
 
 The core objective is to compare three sentiment analysis methodologies, progressing from classical machine learning to deep learning with transformers, and to analyze their performance, computational cost, and robustness.
 
