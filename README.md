@@ -67,15 +67,15 @@ Cons: Computationally expensive
 
 Two preprocessing strategies are used depending on the model:
 
-- Classical ML (TF-IDF):
--   Lowercasing
--   Removal of punctuation and digits
--   Stopword handling via TF-IDF
+- **Classical ML (TF-IDF):**
+  - Lowercasing
+  - Removal of punctuation and digits
+  - Stopword handling via TF-IDF
 
-- BERT-based models:
--   Minimal preprocessing to preserve context
--   Tokenization using BERT WordPiece tokenizer
--   Padding and truncation to fixed length (128 tokens)
+- **BERT-based models:**
+  - Minimal preprocessing to preserve context
+  - Tokenization using BERT WordPiece tokenizer
+  - Padding and truncation to fixed length (128 tokens)
 
 ## 📉 Training and Hyperparameters
 
@@ -91,9 +91,9 @@ Hyperparameters were chosen based on literature best practices and empirical val
 
 - Metrics used: Accuracy, F1-score
 
-- Best performance: Fine-tuned BERT
--   Accuracy ≈ 95.48%
--   F1-score ≈ 97.36%
+- **Best performance**: Fine-tuned BERT
+  - **Accuracy** ≈ 95.48%
+  - **F1-score** ≈ 97.36%
 
 ## 🧪 Extensions and Future Work
 
